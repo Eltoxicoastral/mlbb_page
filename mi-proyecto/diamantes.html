@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Diamantes</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input {
+            padding: 8px;
+            width: 100%;
+            max-width: 300px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="diseño.css">
+<h1>Formulario de Diamantes</h1>
+<form action="/submit" method="POST">
+    <label for="diamantes">Número de Diamantes:</label>
+    <input type="number" id="diamantes" name="diamantes" required min="0">
+
+    <label for="id_usuario">ID de Usuario:</label>
+    <input type="text" id="id_usuario" name="id_usuario" required>
+
+    <label for="servidor">Servidor:</label>
+    <input type="text" id="servidor" name="servidor" required>
+
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>

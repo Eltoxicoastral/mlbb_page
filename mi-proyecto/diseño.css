@@ -1,0 +1,53 @@
+body {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #e0e0e0; /* Color de texto claro */
+    font-family: 'Arial', sans-serif; /* Fuente básica */
+}
+
+h1, h2, h3 {
+    color: #52e396; /* Color verde característico */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para resaltar */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.button {
+    background-color: #cc00cc; /* Color morado para botones */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #a700a7; /* Color más oscuro al pasar el mouse */
+}
+
+.card {
+    background-color: #2a2a2a; /* Fondo de tarjeta */
+    border: 2px solid #52e396; /* Borde verde */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%; /* Imagen responsiva */
+    border-radius: 10px 10px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1em;
+}
